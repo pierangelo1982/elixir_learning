@@ -66,6 +66,12 @@ defmodule EvenOdd do
       "6 è Pari", "7 è Dispari", "8 è Pari", "9 è Dispari"]
 
   """
+  """"
+  def get_my_numbers do
+    result = EvenOdd.create_number_list
+    result = EvenOdd.list_number
+  end
+  """
 
   def get_my_numbers do
     EvenOdd.create_number_list
